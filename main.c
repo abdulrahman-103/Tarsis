@@ -1015,7 +1015,7 @@ int main(void){
 
     while (!WindowShouldClose()){
         block_length = ceilf(GetScreenHeight() / 20.0f);
-        if (IsKeyPressed(KEY_X) || IsKeyPressed(KEY_UP)){
+        if (IsKeyPressed(KEY_X) || IsKeyPressed(KEY_UP) || IsKeyPressed(KEY_W)){
             rotate(grid, true);
         }
 
