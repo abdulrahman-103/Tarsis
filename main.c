@@ -1011,7 +1011,7 @@ int main(void){
     char grid[20][10] = {0};
             
     int random_piece = GetRandomValue(0, 6);
-    place_piece(J, grid);
+    place_piece(random_piece, grid);
 
     while (!WindowShouldClose()){
         block_length = ceilf(GetScreenHeight() / 20.0f);
@@ -1083,7 +1083,7 @@ int main(void){
             if (spawn_timer >= spawn_timer_interval){
                 spawn_timer = 0;
                 int random_piece = GetRandomValue(0, 6);
-                place_piece(J, grid);
+                place_piece(random_piece, grid);
             }
         }
 
