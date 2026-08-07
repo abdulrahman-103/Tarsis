@@ -1,3 +1,5 @@
+# Tarsis — ترصيص
+
 W, X or up arrow to rotate clockwise.
 
 A or left arrow to move left.
