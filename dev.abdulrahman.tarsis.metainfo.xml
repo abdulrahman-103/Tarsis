@@ -2,7 +2,7 @@
 <component type="desktop-application">
   <id>dev.abdulrahman.tarsis</id>
   
-  <name>Tarsis</name>
+  <name>Tarsis — ترصيص</name>
   <summary>A block stacking game — لعبة ترصيص مكعبات</summary>
   
   <metadata_license>CC0-1.0</metadata_license>
