@@ -18,3 +18,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/abdulrahman-103/Tarsis.git
+        tag: v1.0.0
