@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Tarsis — ترصيص
+Comment=A block stacking game — لعبة ترصيص مكعبات
+Icon=dev.abdulrahman.tarsis
+Exec=tarsis
+Categories=Game;BlocksGame

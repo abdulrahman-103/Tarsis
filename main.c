@@ -1005,7 +1005,7 @@ int main(void){
     SetWindowMinSize(monitor_width/8, monitor_width/4);
     SetWindowSize(window_width, window_height);
     SetWindowPosition((monitor_width -  window_width) / 2, (monitor_height - window_height) / 2);
-    Image icon = LoadImage("icon.png");
+    Image icon = LoadImage("dev.abdulrahman.tarsis.png");
     SetWindowIcon(icon);
     UnloadImage(icon);
     SetTargetFPS(60);
