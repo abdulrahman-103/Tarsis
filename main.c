@@ -1005,11 +1005,11 @@ int main(void){
     SetWindowMinSize(monitor_width/8, monitor_width/4);
     SetWindowSize(window_width, window_height);
     SetWindowPosition((monitor_width -  window_width) / 2, (monitor_height - window_height) / 2);
-    Image icon = LoadImage("tarsis.png");
+    Image icon = LoadImage("icon.png");
     SetWindowIcon(icon);
     UnloadImage(icon);
     SetTargetFPS(60);
-    block_length = GetScreenHeight() / 20.0f;
+    block_length = ceil(GetScreenHeight() / 20.0f);
     int block_margin = block_length / 15;
     SetWindowSize(window_width - block_margin, window_height - block_margin);
     char grid[20][10] = {0};
