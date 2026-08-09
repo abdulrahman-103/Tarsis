@@ -4,16 +4,30 @@
   
   <name>Tarsis — ترصيص</name>
   <summary>A block stacking game — لعبة ترصيص مكعبات</summary>
-  
+  <url type="homepage">https://github.com/abdulrahman-103/Tarsis</url>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
-  
+
+  <developer id="dev.abdulrahman">
+    <name>Abdulrahman</name>
+  </developer>
+
+  <content_rating type="oars-1.1"/>
+
   <description>
     <p>
-      A block stacking game — لعبة ترصيص مكعبات
+      A block stacking game written in c designed to be simple and lightweight. — لعبة ترصيص مكعبات مكتوبة بلغة سي مصممة لتكون خفيفة وبسيطة.
     </p>
   </description>
   
+  <releases>
+  <release version="1.0.0" date="2026-08-09">
+    <description>
+      <p>First release of Tarsis.</p>
+    </description>
+  </release>
+</releases>
+
   <launchable type="desktop-id">dev.abdulrahman.tarsis.desktop</launchable>
   <screenshots>
     <screenshot type="default">
