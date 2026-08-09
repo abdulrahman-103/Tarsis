@@ -1005,16 +1005,19 @@ int main(void){
     SetWindowMinSize(monitor_width/8, monitor_width/4);
     SetWindowSize(window_width, window_height);
     SetWindowPosition((monitor_width -  window_width) / 2, (monitor_height - window_height) / 2);
-
+    Image icon = LoadImage("tarsis.png");
+    SetWindowIcon(icon);
+    UnloadImage(icon);
     SetTargetFPS(60);
-
+    block_length = GetScreenHeight() / 20.0f;
+    int block_margin = block_length / 15;
+    SetWindowSize(window_width - block_margin, window_height - block_margin);
     char grid[20][10] = {0};
             
     int random_piece = GetRandomValue(0, 6);
     place_piece(random_piece, grid);
 
     while (!WindowShouldClose()){
-        block_length = ceilf(GetScreenHeight() / 20.0f);
         if (IsKeyPressed(KEY_X) || IsKeyPressed(KEY_UP) || IsKeyPressed(KEY_W)){
             rotate(grid, true);
         }
@@ -1092,7 +1095,7 @@ int main(void){
         for (int row = 0; row < 20 ;row++){
             for (int column = 0; column < 10 ;column++){
                 if (grid[row][column] == 1){
-                    DrawRectangle(column * block_length, row * block_length, block_length, block_length, WHITE);
+                    DrawRectangle(column * block_length, row * block_length, block_length - block_margin, block_length - block_margin, WHITE);
                 }
             }
         }
