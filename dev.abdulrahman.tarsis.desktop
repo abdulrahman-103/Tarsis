@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Tarsis
-Comment=A block stacking game
-Icon=dev.abdulrahman.tarsis
-Exec=tarsis
-Categories=Game;BlocksGame;
