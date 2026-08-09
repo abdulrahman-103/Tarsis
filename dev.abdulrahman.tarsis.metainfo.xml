@@ -2,8 +2,8 @@
 <component type="desktop-application">
   <id>dev.abdulrahman.tarsis</id>
   
-  <name>Tarsis — ترصيص</name>
-  <summary>A block stacking game — لعبة ترصيص مكعبات</summary>
+  <name>Tarsis</name>
+  <summary>A block stacking game</summary>
   <url type="homepage">https://github.com/abdulrahman-103/Tarsis</url>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
@@ -16,7 +16,7 @@
 
   <description>
     <p>
-      A block stacking game written in c designed to be simple and lightweight. — لعبة ترصيص مكعبات مكتوبة بلغة سي مصممة لتكون خفيفة وبسيطة.
+      A block stacking game written in C, designed to be simple and lightweight. No menus, just pure gameplay.
     </p>
   </description>
   
